@@ -3376,7 +3376,6 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .select2-container {
   position: relative;
   display: inline-block;
-  width: 100%;
   padding: 10px 39px 10px 15px;
   font-size: 15px;
   font-weight: normal;
@@ -3858,6 +3857,11 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .select2-dropdown .select2-results .select2-results__options {
   list-style: none;
 
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
