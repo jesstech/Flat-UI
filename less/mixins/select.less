@@ -2,7 +2,7 @@
 //
 
 .select-variant(@color; @background; @hover-background; @active-background; @disabled-background: @gray-light; @arrow-color) {
-  .select2-choice {
+  .select2-container {
     color: @color;
     background-color: @background;
 
@@ -28,7 +28,7 @@
       }
     }
 
-    .select2-arrow {
+    .select2-selection__arrow {
       border-top-color: @arrow-color;
     }
   }
@@ -41,7 +41,7 @@
 }
 
 .multiple-select-variant(@background; @hover-background; @border-color) {
-  .select2-container-multi& {
+  .select2-container {
       border-color: @border-color;
 
       .select2-search-choice {
